@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>CSS Chapter 1</title>
+		<style type="text/css">
+			div{background-color:#AD4DEB;height:200px;width:200px;color:#1F3F12;font-size:25px;text-align: initial;}
+			.divCls{background-color:#F4315F;height:200px;width:200px;color:#1F3F12;font: size 25px;}
+            body{background-color: orange;animation-name: effect;animation-duration: 5s;}
+            @keyframes effect {
+                from {background-color: orange;margin-left: 100%;width: 200%;}
+                75% { font-size: 300%;margin-left: 25%;width: 150%;}
+                to {background-color: #6DE40E;margin-left: 0%;width: 100%;}
+            }
+			
+		</style>
+		
+		
+	</head>
+	<body>
+        <center>
+		<div style="background-color:#01E452;height:200px;width:200px;color:#5D64FA;font-size:25px;">Inline Stylesheet</div><hr/>
+		<div>Internal Stylesheet - Tag Name</div><hr/>
+		<div>Internal Stylesheet - Tag Name</div><hr/>
+		<div>Internal Stylesheet - Tag Name</div><hr/>
+		<div class="divCls">Internal Stylesheet - Class Name</div><hr/>
+		<div class="divCls">Internal Stylesheet - Class Name</div><hr/>
+		<div style="background-color:#E8FC59;" class="divCls" id="D1">Internal Stylesheet - Id</div><hr/>
+    </center>
+	</body>
+</html>
